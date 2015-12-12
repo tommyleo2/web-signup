@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sign in</title>
+  <link rel="stylesheet" href="index.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <form method="post" id="signin">
+      <p id="title">Registration</p>
+      <div class="inputBlock">
+        <div id="name" class="box">
+          <p class="term">User name</p>
+          <input name="username" />
+          <div id="usernameJ" class="judge"></div>
+        </div>
+        <div id="id" class="box">
+          <p class="term">ID</p>
+          <input name="id" />
+          <div id="idJ" class="judge"></div>
+        </div>
+        <div id="phone" class="box">
+          <p class="term">Phone number</p>
+          <input name="phone" />
+          <div id="phoneJ" class="judge"></div>
+        </div>
+        <div id="email" class="box">
+          <p class="term">E-mail</p>
+          <input name="email" />
+          <div id="emailJ" class="judge"></div>
+        </div>
+      </div>
+      <div class="buttonBox">
+        <input type="button" id="reset" value="Reset" />
+        <input type="submit" id="submit" class="notSubmit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</body>
+

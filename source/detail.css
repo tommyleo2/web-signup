@@ -1,0 +1,38 @@
+body {
+    background: #77B6FF;
+}
+
+* {
+    font-family: sans-serif
+}
+
+.wrapper {
+    margin: 0 auto;
+    background: #AAFFAA;
+    width: 500px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 5% 5% 5% 5%;
+    box-shadow: 0px 0px 30px 0px #A2A3A5;
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.wrapper div {
+    font-size: 20px;
+    height: 20%;
+    padding-left: 70px;
+}
+
+.tag {
+    display: inline-block;
+    width: 200px;
+}
